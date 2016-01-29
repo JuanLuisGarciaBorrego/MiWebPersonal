@@ -59,7 +59,22 @@ p a:hover{
 .sensio{color: #83DA01 !important;}
 .linkedin{color: #1381B9 !important;}
 .about{color: #dd4444 !important;}
+.cv{color: #1B1F23 !important;}
 
+p.curriculum a{
+    color:#999;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px 0px;
+    float: left;
+    border-bottom: none;
+    padding-bottom: 2px;
+    width: 100%;
+}
+
+    p.curriculum a:hover{
+        color:#1b1f23;
+    }
 @media only screen and (max-width: 600px) {
     h1{text-align: center;
         font-size: 35px;
@@ -71,7 +86,7 @@ p a:hover{
         line-height: 30px;
         margin-bottom: 10px;
     }
-    p{ text-align: center}
+    p, .curriculum{ text-align: center}
     .contacto{width: 100%;
         margin: 0 auto ;
         text-align: center;
