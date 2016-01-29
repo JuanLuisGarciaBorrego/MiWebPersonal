@@ -60,7 +60,8 @@ p a:hover{
 .linkedin{color: #1381B9 !important;}
 .about{color: #dd4444 !important;}
 .cv{color: #1B1F23 !important;}
-
+.update{font-size: 10px;
+}
 p.curriculum a{
     color:#999;
     text-decoration: none;
@@ -75,6 +76,7 @@ p.curriculum a{
     p.curriculum a:hover{
         color:#1b1f23;
     }
+
 @media only screen and (max-width: 600px) {
     h1{text-align: center;
         font-size: 35px;
