@@ -1,6 +1,8 @@
+AddHandler application/x-httpd-php55 php
+
 <IfModule mod_rewrite.c>
     Options -MultiViews
- 
+
     RewriteEngine On
     #RewriteBase /ruta/hasta/tu/aplicacion
     RewriteCond %{REQUEST_FILENAME} !-f
