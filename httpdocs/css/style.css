@@ -7,7 +7,9 @@ body{
     box-sizing: border-box;
     color: #1b1f23;
     font-family: 'Ubuntu', sans-serif;
+    background: #f8f7f2;
 }
+
 h1{font-size: 18px;
     margin: 0;
     padding: 0;
@@ -20,7 +22,7 @@ h2{font-size: 16px;
     color: #999999;
     font-weight: normal;
 }
-
+p{margin: 5px 0px}
 p a{
     color:#999;
     text-decoration: none;
@@ -34,9 +36,9 @@ p a:hover{
 
 .contacto{list-style: none;
     margin: 10px 0px 0px 0px;
-    margin: 10px 0px 0px 0px;
     position: relative;
     overflow: hidden;
+    width: 100%;
     padding: 0;}
     .contacto li{float: left;
         position: relative;
@@ -56,6 +58,7 @@ p a:hover{
 .beta{color: #A32000 !important;}
 .sensio{color: #83DA01 !important;}
 .linkedin{color: #1381B9 !important;}
+.about{color: #dd4444 !important;}
 
 @media only screen and (max-width: 600px) {
     h1{text-align: center;
@@ -63,9 +66,20 @@ p a:hover{
         line-height: 45px;
         margin-bottom: 20px;
     }
-    .contacto{width: 100px; 
+    h2{text-align: center;
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    p{ text-align: center}
+    .contacto{width: 100%;
         margin: 0 auto ;
         text-align: center;
         font-size: 25px;
     }
+        .contacto li{display:block; width: 100%}
+            .contacto li a{
+                font-size: 16px;
+                width: 100%;
+            }
 }
